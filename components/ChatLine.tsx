@@ -45,7 +45,7 @@ export function ChatLine({ who = 'bot', message }: Message) {
     return null
   }
   const formatteMessage = convertNewLines(message)
-
+  
   return (
     <div
       className={
