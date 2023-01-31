@@ -12,7 +12,7 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <Layout
       title="ai-chatgpt"
-      path="solutions/ai-chatgpt"
+      path="solutions/ai-chatgpt-survey"
       description="ai-chatgpt"
     >
       <Component {...pageProps} />
