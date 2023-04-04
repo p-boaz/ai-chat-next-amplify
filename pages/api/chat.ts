@@ -25,7 +25,7 @@ export default async function handler(req: NextRequest) {
     'Content-Type': 'application/json',
   }
 
-  const response = await fetch(process.env.LAMBDA_URL, {
+  const response = await fetch(process.env.LAMBDA_URL!, {
     headers: requestHeaders,
     method: 'POST',
     body: JSON.stringify(payload),
