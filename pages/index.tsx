@@ -7,9 +7,7 @@ function Home() {
       <section className="flex flex-col gap-6">
         <Text variant="h1">GPT-3 OpenAI and AWS</Text>
         <Text className="text-zinc-600">
-          In this example, a simple chat bot is implemented using Next.js, API
-          Routes, OpenAI API, and AWS. Say `I want to book a flight` to see the
-          implementation in action.
+          Ask a bad bunny question.
         </Text>
       </section>
 
